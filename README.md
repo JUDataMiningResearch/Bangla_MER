@@ -19,9 +19,6 @@ The **Bangla_MER Dataset** is meticulously structured to facilitate easy handlin
 | এক কোনো মৌলিক সংখ্যা নয়।         | মৌলিক সংখ্যা     | Common Mathematical Terms    |
 | সাত থেকে পাঁচ বিয়োগ করলে দুই হবে । | থেকে করলে হবে | Others |  
 
-### Graphical Representation 
-
-<img src="MER_Img1.png" width="600" height="495">
 
 The categorization process was driven by a thorough analysis of 3,430 diverse mathematical statements. By thoughtfully excluding certain raw data from direct categorization, we aimed to enhance the efficacy and real-time applicability of deep learning model training. The four categories derived from this process are: Numbers, Operators, Common Mathematical Terms (CMT), and Others.
 
