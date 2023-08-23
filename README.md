@@ -10,13 +10,18 @@ Mathematical entity recognition in the Bangla language is an emerging field that
 
 The **Bangla_MER Dataset** is meticulously structured to facilitate easy handling and seamless integration into deep learning and machine learning frameworks. It is provided in CSV format, featuring three columns:
 
+### Data Example
+
 | Text                          | Math Entity         | Label                 |
 |-------------------------------|---------------------|-----------------------|
-| যোগফল দ্বারা ৫              | যোগফল, ৫           | Operator, Number     |
-| সম্পূর্ণ সংখ্যা            | সম্পূর্ণ সংখ্যা   | CMT                   |
-| একটি মৌলিক সংখ্যা          | মৌলিক সংখ্যা     | CMT                   |
-| তিনটি আদ্য সংখ্যা          | আদ্য সংখ্যা, তিন  | CMT, Number           |
-| বিয়োগফলে দুটি সংখ্যা      | বিয়োগফল, সংখ্যা  | Operator, Number     |
+| এক আর দুই যোগ করলে তিন হবে।              | এক, দুই, তিন           | Number     |
+| ঋণাত্মক সংখ্যার বর্গমূল হল যৌগিক সংখ্যা।           | বর্গমূল   | Operator       |
+| এক কোনো মৌলিক সংখ্যা নয়।         | মৌলিক সংখ্যা     | Common Mathematical Terms    |
+| সাত থেকে পাঁচ বিয়োগ করলে দুই হবে । | থেকে করলে হবে | Others |  
+
+### Graphical Representation 
+
+<img src="MER_Img1.png" width="600" height="495">
 
 The categorization process was driven by a thorough analysis of 3,430 diverse mathematical statements. By thoughtfully excluding certain raw data from direct categorization, we aimed to enhance the efficacy and real-time applicability of deep learning model training. The four categories derived from this process are: Numbers, Operators, Common Mathematical Terms (CMT), and Others.
 
